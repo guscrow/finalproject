@@ -1,4 +1,4 @@
-var geoP = d3.json("world.geo.json-master/countries.geo.json")
+var geoP = d3.json("countries.geo.json")
 var dataP = d3.csv("WDIData.csv")
 
 Promise.all([geoP,dataP])
