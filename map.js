@@ -113,7 +113,7 @@ var l3list = [76,74,49,24]
                .style("left",x + "px")
                .style("top",y + "px")
                .select("#value")
-               .text(d.properties.name + " Year: 2014")
+               .text(d.properties.name + ": Year: 2014 " + d.properties.CO2percapita + " (metric tons), " + d.properties.CO2industry + "%, " + d.properties.CO2em + "kt")
              }
              d3.select("#tooltip").classed("hidden",false)
            })
